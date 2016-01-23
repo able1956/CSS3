@@ -1,4 +1,7 @@
 /* Оформление параграфов */
+body{
+    background: #333333 url(images/12.jpg) repeat top left;
+}
 #page {
        width: 960px;
        margin: auto;         
