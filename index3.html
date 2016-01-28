@@ -2,15 +2,38 @@
 <html>
 	<head>
 		<meta charset="utf-8"/>
-		<title>Изучаем язык Javascript</title>
+		<title>Вычисление среднего дохода</title>
+		<script>
+		<!--//
+		function val(obj)
+		{	var a1= 1*obj.num1.value;
+			var a2= 1*obj.num2.value;
+			var a3= 1*obj.num3.value;
+			var a4= 1*obj.num4.value;
+			var a5= 1*obj.num5.value;
+			var a6= 1*obj.num6.value;
+			var s=(a1+a2+a3+a4+a5+a6)/6
+		obj.res.value=s
+		}
+		//-->
+		</script>
 	
 	</head>
 <body>
-	<script type="text/javascript">
-		document.write("<FONT COLOR='RED'>ЭТО КРАСНЫЙ ТЕКСТ</FONT><br>");
-		document.write("<font color='blue'>Это голубой цвет</font><br>");
-		document.write("<font color='pink'>А ЭТО РОЗОВЫЙ ЦВЕТ (pink)</FONT");
-	</script>
+	Введите начисленную сумму гонорара за следующие месяцы
+	<pre>
+	<form name="form1">
+	Январь: <input type="text" size=8 name="num1">
+	Февраль:<input type="text" size=8 name="num2">
+	Март:   <input type="text" size=8 name="num3">
+	Апрель: <input type="text" size=8 name="num4">
+	Май:    <input type="text" size=8 name="num5">
+	Июнь:   <input type="text" size=8 name="num6">
+	Средняя зарплата за полгода:  <input type="text size=18"
+	name="res"><br>
+	<input type ="button" value=Вычислить onclick="val(form1)"><input type="reset" value="Обновить">
+	</form>
+	</pre>
 </body>
 	
 
